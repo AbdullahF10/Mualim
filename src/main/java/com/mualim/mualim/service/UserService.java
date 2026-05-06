@@ -1,7 +1,10 @@
-package com.mualim.mualim.service;
+// package com.mualim.mualim.service;
 
+// import com.mualim.mualim.vo.UserVO;
 
-public interface UserService {
+// public interface UserService {
 
-    public User getUser(int id);
-}
+//     public UserVO getUser(int id);
+
+//     public UserVO createUser(UserVO userVo);
+// }

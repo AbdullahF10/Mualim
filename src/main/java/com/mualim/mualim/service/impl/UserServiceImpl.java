@@ -1,19 +1,24 @@
-package com.mualim.mualim.service.impl;
+// package com.mualim.mualim.service.impl;
 
-import com.mualim.mualim.vo.UserVO;
-import org.springframework.stereotype.Service;
+// import com.mualim.mualim.vo.UserVO;
 
-@Service
-public class UserServiceImpl {
+// import org.apache.catalina.User;
+// import org.springframework.beans.factory.annotation.Autowired;
+// import org.springframework.stereotype.Service;
 
-   private final UserVO userVo;
+// @Service
+// public class UserServiceImpl implements UserService {
+    
+//     @Autowired
+//     private UserVO userVo;
 
-    public UserServiceImpl(UserVO userVo) {
-        this.userVo = userVo;
-    }
+//     public String createUser(int id){
+//         String a = "Hello ";
+//         return a;
+//     }
 
-    public UserVO getUser(int id){
+//     public String getUser(int id){
 
-       return userVo;
-   }
-}
+//            return "Hello World";
+//    }
+// }
