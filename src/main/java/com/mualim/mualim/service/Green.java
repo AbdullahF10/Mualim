@@ -1,7 +1,5 @@
 package com.mualim.mualim.service;
 
-public interface Color {
-
+public interface Green {
     String print();
-
 }

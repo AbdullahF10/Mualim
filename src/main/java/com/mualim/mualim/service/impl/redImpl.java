@@ -1,11 +1,12 @@
 package com.mualim.mualim.service.impl;
 
-import org.apache.catalina.User;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.mualim.mualim.service.Red;
 import org.springframework.stereotype.Service;
 
 @Service
-public class redImpl implements red {
+public class redImpl implements Red {
 
 
+    @Override
+    public String print() {return "red";}
 }

@@ -11,6 +11,6 @@ public class UserController {
 
     @GetMapping(path = "/user")
     public String User(){
-        return "Hello World";
+        return "hi ";
     }
 }

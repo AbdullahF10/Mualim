@@ -1,7 +1,7 @@
 package com.mualim.mualim.service;
 
 
-public interface red {
+public interface Red {
 
-
+    String print();
 }
