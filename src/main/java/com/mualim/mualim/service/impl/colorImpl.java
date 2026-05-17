@@ -4,7 +4,9 @@ import com.mualim.mualim.service.Blue;
 import com.mualim.mualim.service.Color;
 import com.mualim.mualim.service.Green;
 import com.mualim.mualim.service.Red;
+import org.springframework.stereotype.Component;;
 
+@Component
 public class colorImpl implements Color {
 
     private Red red;
