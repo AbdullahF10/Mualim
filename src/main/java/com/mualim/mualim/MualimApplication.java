@@ -11,13 +11,18 @@ import org.springframework.boot.CommandLineRunner;
 @Log
 public class MualimApplication implements CommandLineRunner{
 
+    private Color color;
+
+    public MualimApplication(Color color) {
+        this.color = color;
+    }
+
     public static void main(String[] args) {
         SpringApplication.run(MualimApplication.class, args);
     }
 
     @Override
     public void run(final String... args){
-        final Color color = new colorImpl();
         log.info(color.print());
     }
 

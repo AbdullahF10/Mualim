@@ -4,7 +4,6 @@ import com.mualim.mualim.service.Blue;
 import com.mualim.mualim.service.Color;
 import com.mualim.mualim.service.Green;
 import com.mualim.mualim.service.Red;
-import org.springframework.stereotype.Service;
 
 public class colorImpl implements Color {
 
@@ -13,10 +12,11 @@ public class colorImpl implements Color {
     private Blue blue;
 
 
-    public colorImpl() {
-        this.red = new redImpl();
-        this.blue = new blueImpl();
-        this.green = new greenImpl();
+    public colorImpl(Red red, Green green, Blue blue) {
+        this.red = red;
+        this.green = green;
+        this.blue = blue;
+       
     }
 
     @Override
